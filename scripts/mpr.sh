@@ -8,7 +8,7 @@ help () {
   echo "This command is designed to be run on your local machine from a forked copy of the KTH devops course repository."
   echo "It will push your local branch to its remote counterpart and open a PR in the devops repo."
   echo "Devops repo URL: https://github.com/KTH/devops-course"
-  echo "The command prompts you for a PR title, which is auto-added to the PR which will be opened."
+  echo "The command prompts you for a PR title, which is auto-added to the PR which will be opened"
   echo "_______________________"
   echo "I recommend that you add an alias to your shell rc file like this, so you can run mpr from anywhere:"
   echo "alias mpr=\"/bin/szh /Users/{username}/{path-to-forked-repository}/scripts/mpr.sh\""
